@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
 *{
     margin: 0px;
     padding: 0;
@@ -15,7 +16,6 @@ body{
     overflow: hidden;
     width: 100%;
     height: 146px;
-    position: absolute;
 }
 
 .book{
@@ -138,4 +138,49 @@ body{
     .search input{
         margin: 0;
     }
+}
+.picture-book{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1000px;
+    height: auto;
+}
+.picture-book img{
+    border: solid 12px rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 920px) {
+    .picture-book{
+        width: 100%;
+    }
+}
+.brand{
+    width: 290px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.brand span{
+    font-family: 'Palette Mosaic';
+    font-size: 220%;
+}
+
+.grid-books{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: rgb(34, 12, 12);
+    width: 95%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 40px;
+}
+.grid-books div{
+    margin: 0 auto;
+    width: 450px;
+    height: 400px;
+    background-color: #fff;
 }
