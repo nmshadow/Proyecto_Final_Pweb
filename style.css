@@ -1,7 +1,77 @@
+:root {
+    --color-primary: #FDFDFD;
+    --color-primary-o: #FDFDFD;
+    --color-primary-xo: #F9F9F9;
+    --color-primary-l: #B3B3B3;
+    --color-primary-xl: #838283;
+    --color-secundary: #FFEDD9;
+    --color-secundary-o: #FFE3C4;
+    --color-secundary-xo: #E9DED3;
+    --color-secundary-l: #2a2c3d;
+    --color-secundary-xl: #252630;
+    --color-text: #000000;
+    --color-text-l: #808080;
+    --color-text-xl: #C0C0C0;
+    --blanco : #FFFFFF;
+}
 *{
+    padding: 0;
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.container-slider{
+    display flex: 90%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #FFFF,
+                0 15px 50px;
+    position: relative;
+}
+.slider{
+    height: 400px;
+    width: 300%;
+    display: flex;
+}
+.slider__section{
+    width: 100%;
+}
+.slider__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider__btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.slider__btn:hover{
+    background: #FFFF;
+}
+.slider__btn--left{
+    left: 10px;
+}
+.slider__btn--right{
+    right: 10px;
+}
 .grid_foot{
     grid-template-columns: auto auto auto;
     width: 97%;
