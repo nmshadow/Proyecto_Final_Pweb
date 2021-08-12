@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+
+.grid_foot{
+    grid-template-columns: auto auto auto;
+    width: 97%;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+.foot_right{
+    text-align: center;
+}
