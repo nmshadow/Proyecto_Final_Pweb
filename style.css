@@ -25,7 +25,6 @@ html{
 body{
     font-family: Roboto, sans-serif;
 }
-
 .container-slider{
     display flex: 90%;
     max-width: 900px;
@@ -72,6 +71,32 @@ body{
 .slider__btn--right{
     right: 10px;
 }
+.titulo_section{
+    text-align: center;
+    font-size: 50px;
+}
+
+.img_section{
+    margin: 0 auto;
+    width: 100%;    
+}
+
+
+.grid_section{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.caja{
+    margin: 25px;
+}
+.cita{
+    font-weight: bold ;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+.section_text{
+    font-size: 19px;
 .grid_foot{
     grid-template-columns: auto auto auto;
     width: 97%;
@@ -81,6 +106,15 @@ body{
     border-top: solid 1px;
     border-bottom: solid 1px;
 }
+.grid_foot h4{
+    font-size: 28px;
+    font-weight: bold;
+}
+.grid_foot h5{
+    font-size: 20px;
+
+}
+
 .foot_right{
     text-align: center;
 }
