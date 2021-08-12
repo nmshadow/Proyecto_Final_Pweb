@@ -97,6 +97,7 @@ body{
 }
 .section_text{
     font-size: 19px;
+}
 .grid_foot{
     grid-template-columns: auto auto auto;
     width: 97%;
