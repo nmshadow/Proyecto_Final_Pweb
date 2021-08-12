@@ -26,8 +26,8 @@ body{
     font-family: Roboto, sans-serif;
 }
 .container-slider{
-    display flex: 90%;
-    max-width: 900px;
+    width: 90%;
+    max-width: 90%;
     margin: auto;
     overflow: hidden;
     box-shadow: 0 0 0 10px #FFFF,
@@ -35,7 +35,7 @@ body{
     position: relative;
 }
 .slider{
-    height: 400px;
+    height: 720px;
     width: 300%;
     display: flex;
 }
