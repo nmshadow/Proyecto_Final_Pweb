@@ -75,25 +75,30 @@ body{
     text-align: center;
     font-size: 50px;
 }
-
-.img_section{
-    margin: 0 auto;
-    width: 100%;    
-}
-
-
 .grid_section{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 }
 .caja{
-    margin: 25px;
+    margin: 22px;
+    background-color: var(--color-primary-xo);
+    padding: 15px;
+}
+.cont_img{
+    background-color: var(--color-primary-l);
+    padding: 10px;
+}
+.img_section{
+    margin: 0 auto;
+    width: 100%;    
+    height: 100%;
 }
 .cita{
     font-weight: bold ;
     font-size: 20px;
-    margin-top: 8px;
     margin-bottom: 4px;
+    background-color: var(--color-text-xl);
+    padding: 10px;
 }
 .section_text{
     font-size: 19px;
@@ -118,4 +123,7 @@ body{
 
 .foot_right{
     text-align: center;
+}
+.cont_p{
+    
 }
