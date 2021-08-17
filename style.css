@@ -38,6 +38,7 @@ body{
     height: 720px;
     width: 300%;
     display: flex;
+    margin-left: -100%;
 }
 .slider__section{
     width: 100%;
