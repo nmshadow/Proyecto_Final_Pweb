@@ -69,7 +69,7 @@ body{
         right: 0px;
         height: 50%;
         top: 8vh;
-        background: var(--color-primary);
+        background: var(--color-primary-l);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -110,16 +110,17 @@ body{
 }
 
 .container-slider{
-    display: flex 90%;
-    max-width: 900px;
-    margin: auto;
+    display: 100%;
+    max-width: 1440px;
+    margin: 2.5%;
     overflow: hidden;
     box-shadow: 0 0 0 10px #FFFF,
                 0 15px 50px;
     position: relative;
+    align-items: center;
 }
 .slider{
-    height: 400px;
+    height: 40rem;
     width: 300%;
     display: flex;
     margin-left: -100%;
