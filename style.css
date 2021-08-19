@@ -37,8 +37,7 @@ body.dark {
     min-height: 8vh;
 }
 .logo{
-    font-size: 40px;
-    color: var(--color-text);
+    width: 10%;
 }
 .nav-links{
     display: flex;
@@ -138,6 +137,9 @@ span{
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
         z-index: 4;
+    }
+    .logo{
+        min-width: 30%;
     }
     .nav-links li{
         opacity: 0;
