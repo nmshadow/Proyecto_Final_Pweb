@@ -87,3 +87,12 @@ btnLeft.addEventListener('click', function(){
 setInterval(function(){
 	Next();
 },10000);
+
+
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://susurroelocuente.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
