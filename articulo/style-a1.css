@@ -1,0 +1,38 @@
+:root {
+    --color-primary: #FDFDFD;
+    --color-primary-o: #FDFDFD;
+    --color-primary-xo: #F9F9F9;
+    --color-primary-l: #B3B3B3;
+    --color-primary-xl: #838283;
+    --color-secundary: #FFEDD9;
+    --color-secundary-o: #FFE3C4;
+    --color-secundary-xo: #E9DED3;
+    --color-secundary-l: #2a2c3d;
+    --color-secundary-xl: #252630;
+    --color-text: #000000;
+    --color-text-l: #808080;
+    --color-text-xl: #C0C0C0;
+    --blanco : #FFFFFF;
+}
+.content-review{
+    width: 50%;
+    max-width: 70%;
+    margin: 2% auto 2% ;
+}
+.content-review img{
+    width: 70%;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.content-review h1{
+}
+.content-review p{
+}
+body.dark h1 {
+     color: #C8C8C8;gba(0, 0, 0, 0.16);
+}
+
+body.dark p {
+    color: #C8C8C8;
+}
