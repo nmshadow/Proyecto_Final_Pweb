@@ -36,7 +36,11 @@ body.dark {
     align-items: center;
     min-height: 8vh;
 }
-.logo{
+.logo {
+    width: 10%;
+    cursor: pointer;
+}
+.logo a{
     width: 10%;
 }
 .nav-links{
